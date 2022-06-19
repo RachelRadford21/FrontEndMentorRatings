@@ -11,7 +11,7 @@ import Foundation
 ///MARK: ThankYouPageComments
 /*
     Here we use the geometryReader to read the size of the screen.
-    On reflection, this was probably unneccessary, restructuring the app would have been a better idea. The georeader is expensive, it can slow down the app if used too much.
+    On reflection, this was probably unnecessary, restructuring the app would have been a better idea. The georeader is expensive, it can slow down the app if used too much.
     All the subviews in this group flow up to this view.
     The MainComponentView in the RatingPage group is reused here for the background card, the header and paragraph.
  
