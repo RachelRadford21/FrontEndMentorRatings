@@ -35,7 +35,7 @@ struct MainComponentView: View {
                         .frame(width: 380, height: 400, alignment: .center)
                         .foregroundColor(Color.darkBlue)
                         .shadow(color: Color.mediumGrey.opacity(0.4), radius: -5, x: -1, y: -1)
-                        .padding(.horizontal, 10)))
+                        .padding(.horizontal, 20)))
             
     }
 }

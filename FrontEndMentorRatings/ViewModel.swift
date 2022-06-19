@@ -11,4 +11,5 @@ import Foundation
 class ViewModel: ObservableObject {
     @Published var buttonIndex = 0
     @Published var isPressed = false
+
 }

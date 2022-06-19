@@ -32,6 +32,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
             .environmentObject(ViewRouter())
             .environmentObject(ViewModel())
-            .previewInterfaceOrientation(.landscapeLeft)
+            .previewInterfaceOrientation(.landscapeRight)
     }
 }

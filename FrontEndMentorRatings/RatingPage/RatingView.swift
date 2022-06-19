@@ -23,22 +23,23 @@ struct RatingView: View {
                         
                         if geo.size.height > geo.size.width {
                             MainComponentView(headerTitle: "How did we do?" , paragraph: " Please let us know how we did with your support\n request. All feedback is appreciated to help us\n improve our offering!")
+                                
                             IconCircleView()
-                                .position(x: 45, y: 230)
+                                .position(x: geo.size.width * 0.14, y: geo.size.height * 0.31)
                             CirclesView()
-                                .position(x: 200, y: 460)
+                                .position(x: geo.size.width * 0.48, y: geo.size.height * 0.59)
                             ButtonView()
-                                .position(x: 200, y: 540)
+                                .position(x: geo.size.width * 0.48, y: geo.size.height * 0.681)
                             
                         } else {
                             
                             MainComponentView(headerTitle: "How did we do?" , paragraph: " Please let us know how we did with your support\n request. All feedback is appreciated to help us\n improve our offering!")
                             IconCircleView()
-                                .position(x: 250, y: 30)
+                                .position(x: geo.size.width * 0.32, y: geo.size.height * 0.1)
                             CirclesView()
-                                .position(x: 385, y: 260)
+                                .position(x: geo.size.width * 0.49, y: geo.size.height * 0.68)
                             ButtonView()
-                                .position(x: 385, y: 330)
+                                .position(x: geo.size.width * 0.49, y: geo.size.height * 0.88)
                         }
                     }
                 }
@@ -53,6 +54,6 @@ struct RatingView_Previews: PreviewProvider {
         RatingView()
             .environmentObject(ViewRouter())
             .environmentObject(ViewModel())
-            .previewInterfaceOrientation(.landscapeLeft)
+            .previewInterfaceOrientation(.landscapeRight)
     }
 }

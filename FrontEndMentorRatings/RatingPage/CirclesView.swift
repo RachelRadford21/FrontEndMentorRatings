@@ -23,9 +23,8 @@ struct CirclesView: View {
                         .foregroundColor(viewModel.buttonIndex == index ? Color.white : Color.lightGrey)
                         .font(.system(size: 25))
                         .background(Circle()
-                            .fill(viewModel.buttonIndex == index ? Color.primaryOrange : Color.mediumGrey.opacity(0.1))
-                            .frame(width: 55, height: 55)
-
+                        .fill(viewModel.buttonIndex == index ? Color.primaryOrange : Color.mediumGrey.opacity(0.1))
+                        .frame(width: 55, height: 55)
                         )
             }
         }
