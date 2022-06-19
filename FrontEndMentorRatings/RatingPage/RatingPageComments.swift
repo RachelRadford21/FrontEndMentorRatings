@@ -36,5 +36,5 @@ import Foundation
  
         This view creates the card in the background, the "How did we do ?" header,
         and the accompanying paragraph below.
-        The variables at the top allow us to make this view reusable if neccesary.
+        The variables at the top allow us to make this view reusable if necessary.
 */
