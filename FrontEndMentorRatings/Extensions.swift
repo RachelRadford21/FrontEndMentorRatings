@@ -8,6 +8,12 @@
 import Foundation
 import SwiftUI
 
+///MARK:
+/*
+    The color extension allows us to create custom colors, using color literals
+ 
+    The font extension allows us to use the provided font from FEM with a custom name.
+*/
 extension Color {
     static let lightGrey = Color(#colorLiteral(red: 0.6191810966, green: 0.6475508809, blue: 0.6887680888, alpha: 1))
     static let mediumGrey = Color(#colorLiteral(red: 0.5493205786, green: 0.5744217038, blue: 0.6096975803, alpha: 1))

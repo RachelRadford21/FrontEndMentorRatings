@@ -23,7 +23,6 @@ struct RatingView: View {
                         
                         if geo.size.height > geo.size.width {
                             MainComponentView(headerTitle: "How did we do?" , paragraph: " Please let us know how we did with your support\n request. All feedback is appreciated to help us\n improve our offering!")
-                                
                             IconCircleView()
                                 .position(x: geo.size.width * 0.14, y: geo.size.height * 0.31)
                             CirclesView()
